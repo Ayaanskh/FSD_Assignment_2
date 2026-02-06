@@ -98,25 +98,6 @@ p{
   margin:1rem 0;
 }
 
-.progress-bar-container {
-  width: 100%; /* Or a specific fixed width, e.g., 300px */
-  height: 30px; /* Set a height for visibility */
-  background-color: #ddd; /* Background color of the empty bar */
-  border-radius: 5px; /* Optional: Rounded corners */
-  overflow: hidden; /* Ensures the inner bar stays within rounded corners */
-}
-
-.progress-bar-fill {
-  height: 100%;
-  background-color: gray; /* Color of the filled portion */
-  text-align: center;
-  line-height: 30px; /* Vertically centers the text */
-  color: white;
-  /* Add a smooth transition effect when the width changes */
-  transition: width 0.4s ease-in-out; 
-}
-
-
 .bar{
   background:#ddd;
   height:10px;
@@ -170,3 +151,20 @@ footer{
   nav{flex-direction:column;}
 }
 
+.progress-bar-container {
+  width: 100%; /* Or a specific fixed width, e.g., 300px */
+  height: 30px; /* Set a height for visibility */
+  background-color: #ddd; /* Background color of the empty bar */
+  border-radius: 5px; /* Optional: Rounded corners */
+  overflow: hidden; /* Ensures the inner bar stays within rounded corners */
+}
+
+.progress-bar-fill {
+  height: 100%;
+  background-color: gray; /* Color of the filled portion */
+  text-align: center;
+  line-height: 30px; /* Vertically centers the text */
+  color: white;
+  /* Add a smooth transition effect when the width changes */
+  transition: width 0.4s ease-in-out; 
+}
